@@ -10,6 +10,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Studio Aperture — Photography</title>
+<meta name="description" content="A Stockholm photography studio for portraits, weddings, and editorial work — booking 2026 sessions.">
+
+<!-- Link-preview card (iMessage, WhatsApp, Slack, etc.) -->
+<!-- IMPORTANT: og:image and og:url below use relative/placeholder paths. Once the
+     site is live at its real address, replace CANONICAL_SITE_URL_HERE with the
+     actual full URL (e.g. https://yourname.github.io/studio-aperture/) for the
+     best compatibility across platforms — some apps require an absolute URL. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Studio Aperture — Photography">
+<meta property="og:description" content="A Stockholm photography studio for portraits, weddings, and editorial work — booking 2026 sessions.">
+<meta property="og:image" content="images/social/preview.jpg">
+<meta property="og:url" content="CANONICAL_SITE_URL_HERE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Studio Aperture — Photography">
+<meta name="twitter:description" content="A Stockholm photography studio for portraits, weddings, and editorial work.">
+<meta name="twitter:image" content="images/social/preview.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -918,6 +934,7 @@
           const img = document.createElement('img');
           img.src = src;
           img.loading = 'lazy';
+          img.decoding = 'async';
           img.alt = cat + ' photo ' + (i + 1);
           img.onerror = function(){ this.onerror=null; this.src='https://picsum.photos/800/1000?grayscale'; };
           tile.appendChild(img);
