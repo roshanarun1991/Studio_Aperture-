@@ -1,56 +1,56 @@
 {
   "hero": [
-    "images/_optimized/hero/01.jpg",
-    "images/_optimized/hero/02.jpg",
-    "images/_optimized/hero/03.jpg",
-    "images/_optimized/hero/04.jpg"
+    "images/optimized/hero/01.jpg",
+    "images/optimized/hero/02.jpg",
+    "images/optimized/hero/03.jpg",
+    "images/optimized/hero/04.jpg"
   ],
   "about": [
-    "images/_optimized/about/01.jpg"
+    "images/optimized/about/01.jpg"
   ],
   "portrait": [
-    "images/_optimized/portrait/01.jpg",
-    "images/_optimized/portrait/02.jpg",
-    "images/_optimized/portrait/03.jpg",
-    "images/_optimized/portrait/04.jpg",
-    "images/_optimized/portrait/05.jpg",
-    "images/_optimized/portrait/06.jpg",
-    "images/_optimized/portrait/07.jpg",
-    "images/_optimized/portrait/08.jpg"
+    "images/optimized/portrait/01.jpg",
+    "images/optimized/portrait/02.jpg",
+    "images/optimized/portrait/03.jpg",
+    "images/optimized/portrait/04.jpg",
+    "images/optimized/portrait/05.jpg",
+    "images/optimized/portrait/06.jpg",
+    "images/optimized/portrait/07.jpg",
+    "images/optimized/portrait/08.jpg"
   ],
   "weddings": [
-    "images/_optimized/weddings/01.jpg",
-    "images/_optimized/weddings/02.jpg",
-    "images/_optimized/weddings/03.jpg",
-    "images/_optimized/weddings/04.jpg",
-    "images/_optimized/weddings/05.jpg",
-    "images/_optimized/weddings/06.jpg",
-    "images/_optimized/weddings/07.jpg"
+    "images/optimized/weddings/01.jpg",
+    "images/optimized/weddings/02.jpg",
+    "images/optimized/weddings/03.jpg",
+    "images/optimized/weddings/04.jpg",
+    "images/optimized/weddings/05.jpg",
+    "images/optimized/weddings/06.jpg",
+    "images/optimized/weddings/07.jpg"
   ],
   "landscape": [
-    "images/_optimized/landscape/01.jpg",
-    "images/_optimized/landscape/02.jpg",
-    "images/_optimized/landscape/03.jpg",
-    "images/_optimized/landscape/04.jpg",
-    "images/_optimized/landscape/05.jpg",
-    "images/_optimized/landscape/06.jpg"
+    "images/optimized/landscape/01.jpg",
+    "images/optimized/landscape/02.jpg",
+    "images/optimized/landscape/03.jpg",
+    "images/optimized/landscape/04.jpg",
+    "images/optimized/landscape/05.jpg",
+    "images/optimized/landscape/06.jpg"
   ],
   "street": [
-    "images/_optimized/street/01.jpg",
-    "images/_optimized/street/02.jpg",
-    "images/_optimized/street/03.jpg",
-    "images/_optimized/street/04.jpg"
+    "images/optimized/street/01.jpg",
+    "images/optimized/street/02.jpg",
+    "images/optimized/street/03.jpg",
+    "images/optimized/street/04.jpg"
   ],
   "fashion": [
-    "images/_optimized/fashion/01.jpg",
-    "images/_optimized/fashion/02.jpg",
-    "images/_optimized/fashion/03.jpg",
-    "images/_optimized/fashion/04.jpg",
-    "images/_optimized/fashion/05.jpg",
-    "images/_optimized/fashion/06.jpg"
+    "images/optimized/fashion/01.jpg",
+    "images/optimized/fashion/02.jpg",
+    "images/optimized/fashion/03.jpg",
+    "images/optimized/fashion/04.jpg",
+    "images/optimized/fashion/05.jpg",
+    "images/optimized/fashion/06.jpg"
   ],
   "product": [
-    "images/_optimized/product/01.jpg",
-    "images/_optimized/product/02.jpg"
+    "images/optimized/product/01.jpg",
+    "images/optimized/product/02.jpg"
   ]
 }
