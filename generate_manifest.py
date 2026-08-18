@@ -22,7 +22,7 @@ import re
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 IMAGE_DIR = os.path.join(BASE_DIR, "images")
-OPTIMIZED_DIR = os.path.join(IMAGE_DIR, "_optimized")
+OPTIMIZED_DIR = os.path.join(IMAGE_DIR, "optimized")
 
 CATEGORIES = [
     "hero", "about",
@@ -131,7 +131,7 @@ def main():
                 before, after = optimize_image(src, dst, max_dim)
                 total_before += before
                 total_after += after
-                optimized_paths.append(f"images/_optimized/{cat}/{dst_name}")
+                optimized_paths.append(f"images/optimized/{cat}/{dst_name}")
             except Exception as e:
                 print(f"   ! Couldn't process images/{cat}/{filename}: {e}")
 
@@ -161,7 +161,7 @@ def main():
 
     print("\nRefresh the site in your browser to see the changes.")
     print("Remember: if this site is on GitHub Pages, you must also commit and")
-    print("push the images/ folder (including images/_optimized/ and")
+    print("push the images/ folder (including images/optimized/ and")
     print("manifest.json) — running this script only updates your local files.")
 
 
